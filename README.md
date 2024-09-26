@@ -15,6 +15,7 @@ This userscript requires [Tampermonkey](https://www.tampermonkey.net/), which is
    [Install Membean Helper](https://github.com/imminseohoe/membean-hack/raw/main/membean.user.js)
 3. Tampermonkey should detect the script and open an installation tab.
 4. Click on "Install" to add the script to Tampermonkey.
+**you need to prepare your own gemini api key for use this tool**
 
 ## Features
 
