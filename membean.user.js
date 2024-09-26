@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         멤빈
+// @name         membean get answer
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  앙 멤빈
+// @description  can get a membean anser just click it
 // @author       YourName
 // @match        https://membean.com/training_sessions/*
 // @grant        none
@@ -42,7 +42,7 @@
         `;
 
         const title = document.createElement('span');
-        title.textContent = '멤비니';
+        title.textContent = 'membean helper';
         title.style.fontWeight = 'bold';
 
         const buttonContainer = document.createElement('div');
@@ -210,7 +210,7 @@
 
     const openTabButton = () => {
         const button = document.createElement('button');
-        button.textContent = '멤비니 열기';
+        button.textContent = 'open membean helper';
         button.style.cssText = `
             position: fixed;
             bottom: 20px;
